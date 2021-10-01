@@ -40,7 +40,7 @@ function Header() {
                 <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
                 <HeaderOption Icon={ChatIcon} title="Messaging" />
                 <HeaderOption Icon={NotificationsIcon} title="Notifications" />
-                <HeaderOption avatar="http://cdn0.vox-cdn.com/uploads/chorus_asset/file/2332984/obama_2.0.png" 
+                <HeaderOption avatar={true}
                 title='me' 
                 onClick={logoutOfApp}
                 />
