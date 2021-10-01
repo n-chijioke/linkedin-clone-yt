@@ -24,7 +24,7 @@ function Login() {
                 })
             );
         })
-        .catch((error) => alert(error));
+        .catch((error) => alert(error ));
     };
 
     const register = () => {
